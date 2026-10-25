@@ -92,7 +92,7 @@
                         <td>Jane Smith</td>
                         <td>Alice Johnson</td>
                         <td>
-                          <a href="order_details.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
+                          <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
                           <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice"><i class="bi bi-receipt"></i></a>
                           <button class="btn btn-warning btn-sm text-dark"><i class="bi bi-pencil-square"></i></button>
                           <button class="btn btn-danger btn-sm text-white"><i class="bi bi-trash"></i></button>
