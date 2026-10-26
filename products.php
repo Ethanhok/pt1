@@ -37,23 +37,22 @@ ob_start();
                     <input name="product_name" id="name" type="text" class="form-control" placeholder="Enter Product Name" value="" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="price" class="form-label">Price (RM) <span class="text-danger" aria-hidden="true">*</span></label>
-                    <input name="product_price" id="price" type="number" class="form-control" placeholder="Enter Price" value="" required min="0" step="0.01">
+                    <label for="price" class="form-label">Unit Price (RM) <span class="text-danger" aria-hidden="true">*</span></label>
+                    <input name="product_price" id="price" type="number" class="form-control" placeholder="Enter Price" value="18.00" required min="0" step="0.01">
+
                 </div>
                 <div class="col-md-3">
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
-                        <option value="">Select Brand</option>
-                        <option value="Dove">Dove</option>
-                        <option value="KitKat">KitKat</option>
-                        <option value="Cadbury">Cadbury</option>
-                        <option value="Snickers">Snickers</option>
+                      <option value="">Select Brand</option>
+                      <option value="The CACAO BAR">The CACAO BAR</option>
                     </select>
+
                 </div>
  
                 <div class="col-md-3">
                     <label for="weight" class="form-label">Weight (KG) <span class="text-danger" aria-hidden="true">*</span></label>
-                     <input name="product_weight" id="weight" type="number" class="form-control" placeholder="Enter Weight" value="" required min="0" step="0.01">
+                    <input name="product_weight" id="weight" type="number" class="form-control" placeholder="Enter Weight" value="0.035" required min="0" step="0.01">
                     
                 </div>
  
@@ -119,9 +118,9 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>KitKat black chocolate bar</td>
-                        <td>RM 2.50</td>
-                        <td>KitKat</td>
+                        <td>70% Dark Chocolate Bar</td>
+                        <td>RM 18.00</td>
+                        <td>The CACAO BAR</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
